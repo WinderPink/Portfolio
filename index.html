@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header and Navigation -->
+  <header class="home">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Welcome to my portfolio</h1>
+      <p>My name is Hong Phong and I am a web developer</p>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- About Me -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello, I’m Hong Phong – a dedicated web developer with a passion for crafting visually stunning and highly intuitive websites. With a solid expertise in HTML, CSS, and JavaScript, I create responsive and innovative digital experiences designed to captivate and engage users. I thrive on solving challenging problems and continuously expanding my knowledge through emerging technologies. In my portfolio, you’ll discover a curated selection of projects that reflect my commitment to quality, creativity, and efficiency. Whether working solo or as part of a dynamic team, my goal is to deliver solutions that not only meet, but exceed expectations.
+      </p>
+    </section>
+    
+    <!-- Project -->
+    <section id="project">
+      <h2>Project</h2>
+      <div class="projects">
+        <div class="project-item">
+          <img src="project1.png" alt="Heart Particle Animation">
+          <h3>Heart Particle Animation</h3>
+          <p>This project is an animated particle system that uses HTML, CSS, and JavaScript to create a dynamic heart particle effect on a full-screen canvas.</p>
+        </div>
+        <div class="project-item">
+          <img src="project2.png" alt="Hearts Rain">
+          <h3>Hearts Rain</h3>
+          <p>The Hearts Rain project is a simple website that uses HTML, CSS, and JavaScript to create a raining hearts effect.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main> 
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2020 My Portfolio</p>
+  </footer>
+</body>
+</html>
